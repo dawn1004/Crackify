@@ -1,26 +1,44 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Navbar />
+  <Landing />
+  <Description />
+  <Offer />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from "./components/Nav"
+import Landing from "./components/Landing"
+import Description from "./components/Description"
+import Offer from "./components/Offer"
+
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navbar,
+    Landing,
+    Description,
+    Offer
+  },
+  created(){
+    AOS.init();
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body{
+  background: url("./assets/bg.jpg");
+  background-repeat: no-repeat;
 }
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
 </style>
