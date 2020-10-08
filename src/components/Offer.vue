@@ -22,70 +22,8 @@
 </template>
 
 
-
-<style>
-.offer-container{
-    margin: 100px;
-    margin-top: 80px;
-    margin-bottom: 0px;
-}
-.offer-container .title{
-    color: #0A274A;
-}
-.offer-container .right{
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-}
-.offer-container .right p{
-    font-size: 26px;
-    color: rgb(47, 47, 47);
-    text-align: justify;
-}
-.offer-container .right .price{
-    font-style: italic;
-    color: rgb(47, 47, 47);
-    margin-top: 10px;
-}
-.offer-container .right .price span{
-    font-style: italic;
-    color: rgb(88, 88, 88);
-    font-size: 18px;
-    text-decoration: line-through;
-}
-.offer-container .right img{
-    max-width: 250px;
-    min-width: 250px;
-    margin-right: 20px;
-}
-
-@media only screen and (max-width: 500px) {
-    .offer-container{
-        margin: 40px;
-        margin-top: 100px;
-    }
-    .offer-container .title{
-        font-size: 14px;
-    }
-    .offer-container .right{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .offer-container .right p{
-        font-size: 18px;
-        margin-top: 15px;
-    }
-    .offer-container .right img{
-           max-width: 180px;
-    min-width: 180px;
-        margin-right: 0px;
-    }
-}
-</style>
-
-
-
 <script>
+//dito sa script tag yung products array edit mo yung price
 import { reactive } from 'vue'
 export default {
     name: "Offer",
@@ -197,3 +135,69 @@ export default {
     }
 }
 </script>
+
+
+
+
+<style>
+.offer-container{
+    margin: 100px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.offer-container .title{
+    color: #0A274A;
+}
+.offer-container .right{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.offer-container .right p{
+    font-size: 26px;
+    color: rgb(47, 47, 47);
+    text-align: justify;
+}
+.offer-container .right .price{
+    font-style: italic;
+    color: rgb(47, 47, 47);
+    margin-top: 10px;
+}
+.offer-container .right .price span{
+    font-style: italic;
+    color: rgb(88, 88, 88);
+    font-size: 18px;
+    text-decoration: line-through;
+}
+.offer-container .right img{
+    max-width: 250px;
+    min-width: 250px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .offer-container{
+        margin: 40px;
+        margin-top: 100px;
+    }
+    .offer-container .title{
+        font-size: 14px;
+    }
+    .offer-container .right{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .offer-container .right p{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .offer-container .right img{
+           max-width: 180px;
+    min-width: 180px;
+        margin-right: 0px;
+    }
+}
+</style>
+
+
+
