@@ -42,11 +42,13 @@ export default {
                     description: 'Driver Easy is a free driver update program. ... Buy a PRO subscription, install, activate, scan and update drivers in one click!',
                     url:  require('../assets/logos/de.jpg'),
                     price: '50'
+                    discount: '200'
                 },{
                     title:'Magix Vegas Pro 18 Video Editor for PC',
                     description: 'Magix VEGAS Pro 18 Edit is an excellent, streamlined solution for video and audio production. Benefit from lightning-fast operation, thanks to nestled timelines and a unified color grading layout.',
                     url:  require('../assets/logos/Magix.jpg'),
                     price: '100'
+                    discount: '400'
                 },{
                     title:'Avast Premium',
                     description: 'Avast Premium Security is an upgrade to your current Antivirus protection. It includes all the features included in Avast Internet Security, and additionally includes Webcam Shield, Data Shredder, and automatic updates in Software Updater.',
