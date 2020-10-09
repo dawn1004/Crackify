@@ -10,7 +10,7 @@
         data-aos-duration="500"
         >
             <h1>Crackify Softwares</h1>
-            <h3>Affordable application bundle?</h3>
+            <h3>Affordable application bundle??</h3>
             <button @click="showDialog">Buy now...</button>
         </div>
         <div 
