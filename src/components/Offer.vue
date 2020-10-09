@@ -35,19 +35,19 @@ export default {
                     title:'Adobe Master Collection CC 2020',
                     description: 'Adobe Master Collection CC 2020 is a collection of applications from the Creative Cloud 2020 line and a number of junior version programs combined by a single installer with the ability to select the installation path and the language of the installed programs.In terms of functionality',
                     url: require("../assets/logos/adobe.jpg"),
-                    price: '150'
+                    price: '150',
                     discount: '400'
                 },{
                     title:'Driver Easy Pro',
                     description: 'Driver Easy is a free driver update program. ... Buy a PRO subscription, install, activate, scan and update drivers in one click!',
                     url:  require('../assets/logos/de.jpg'),
-                    price: '50'
+                    price: '50',
                     discount: '200'
                 },{
                     title:'Magix Vegas Pro 18 Video Editor for PC',
                     description: 'Magix VEGAS Pro 18 Edit is an excellent, streamlined solution for video and audio production. Benefit from lightning-fast operation, thanks to nestled timelines and a unified color grading layout.',
                     url:  require('../assets/logos/Magix.jpg'),
-                    price: '100'
+                    price: '100',
                     discount: '400'
                 },{
                     title:'Avast Premium',
