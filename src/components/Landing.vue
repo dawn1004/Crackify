@@ -15,8 +15,8 @@
         </div>
         <div 
         class="right"
-        data-aos="fade-up"
-        data-aos-duration="500"
+        :data-aos="state.screenWidth >=500 ? 'fade-up' : '' "
+        :data-aos-duration="state.screenWidth >=500 ? '500' : '' "
         >
             <img src="../assets/right.png" alt="">
         </div>
@@ -37,7 +37,8 @@ export default {
     },
     setup(){
         const state = reactive({
-            dialog: false
+            dialog: false,
+            screenWidth: window.innerWidth,
         })
 
         function showDialog(){
