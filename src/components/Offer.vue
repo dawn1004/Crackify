@@ -14,7 +14,7 @@
             <img :src="product.url" alt="">
             <div class="discription">
                 <p>{{product.description}}</p>
-                <p class="price">{{product.price}}  <span>₱300</span> </p>
+                <p class="price">{{product.price}}  <p class="discount">{{product.discount}}  </p> </p>
             </div>
         </div>
 
@@ -36,6 +36,7 @@ export default {
                     description: 'Adobe Master Collection CC 2020 is a collection of applications from the Creative Cloud 2020 line and a number of junior version programs combined by a single installer with the ability to select the installation path and the language of the installed programs.In terms of functionality',
                     url: require("../assets/logos/adobe.jpg"),
                     price: '150'
+                    discount: '400'
                 },{
                     title:'Driver Easy Pro',
                     description: 'Driver Easy is a free driver update program. ... Buy a PRO subscription, install, activate, scan and update drivers in one click!',
