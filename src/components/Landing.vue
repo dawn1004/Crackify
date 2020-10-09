@@ -2,8 +2,7 @@
     <div 
     class="landing"
     data-aos="fade-in"
-    data-aos-duration="1000"
-    data-aos-offset="-200"
+    data-aos-duration="1000
     >
         <div 
         class="left"
