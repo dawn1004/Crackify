@@ -2,7 +2,7 @@
     <div 
     class="landing"
     data-aos="fade-in"
-    data-aos-duration="1000
+    data-aos-duration="1000"
     >
         <div 
         class="left"
@@ -10,21 +10,13 @@
         data-aos-duration="500"
         >
             <h1>Crackify Softwares</h1>
-            <h3>Affordable application bundle??</h3>
+            <h3>Affordable application bundle?</h3>
             <button @click="showDialog">Buy now...</button>
         </div>
         <div 
         class="right"
         data-aos="fade-up"
         data-aos-duration="500"
-        v-if="state.screenWidth >=500"
-        >
-            <img src="../assets/right.png" alt="">
-        </div>
-        
-        <div 
-        class="right"
-        v-if="state.screenWidth <500"
         >
             <img src="../assets/right.png" alt="">
         </div>
@@ -35,9 +27,7 @@
 
 <script>
 import Contact from "./Contact"
-
 import { reactive } from 'vue'
-
 export default {
     name: "Landing",
     components:{
@@ -45,10 +35,8 @@ export default {
     },
     setup(){
         const state = reactive({
-            dialog: false,
-            screenWidth: window.innerWidth,
+            dialog: false
         })
-
         function showDialog(){
             state.dialog =true
         }
@@ -61,8 +49,6 @@ export default {
 </script>
 
 <style scoped>
-
-
 .landing{
     display: flex;
     /* background: red; */
@@ -73,14 +59,11 @@ export default {
     align-items: center;
     
 }
-
 .landing .left{
-
 }
 .landing .right{
     
 }
-
 .landing .right img{
     width: 440px;
 }
@@ -89,14 +72,12 @@ export default {
     color: #0A274A;
     letter-spacing: 1px;
 }
-
 .landing .left h3{
     font-size: 32px;
     color: #656565;
     letter-spacing: 2px;
     font-weight: 400;
 }
-
 .landing .left button{
     width: 270px;
     background: #0A274A;
@@ -110,7 +91,6 @@ export default {
 .landing .left button:hover{
     opacity: 0.9;
 }
-
 @media only screen and (max-width: 500px) {
     .landing{
         flex-direction: column;
@@ -120,7 +100,6 @@ export default {
         /* background: red; */
         height: 550px;
         margin-top: 30px;
-
     }
     .landing .right img{
         width: 270px;
@@ -129,14 +108,12 @@ export default {
     .landing .left h1{
         font-size: 48px;
     }
-
     .landing .left h3{
         font-size: 22px;
     }
-
     .landing .left button{
         width: 180px;
         font-size: 18px;
     }
 }
-</style>
+</style> 
