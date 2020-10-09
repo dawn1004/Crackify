@@ -7,7 +7,7 @@
       data-aos-duration="1000"
       >
         <div class="title">
-            <h1>{{product.title}} ssssssssssssssss</h1>
+            <h1>{{product.title}}</h1>
         </div>
         <div class="right">
             
