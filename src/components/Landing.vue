@@ -42,7 +42,7 @@ export default {
     },
     setup(){
         const state = reactive({
-            screenWidth: window.innerWidth
+            screenWidth: window.innerWidth,
             dialog: false
         })
         function showDialog(){
