@@ -3,6 +3,7 @@
     class="landing"
     data-aos="fade-in"
     data-aos-duration="1000"
+    data-aos-offset="-200"
     >
         <div 
         class="left"
