@@ -14,7 +14,7 @@
             <img :src="product.url" alt="">
             <div class="discription">
                 <p>{{product.description}}</p>
-                <p class="price">₱{{product.price}} <h3>Original Price : </h3>   <span class="discount" v-if="product.discount">₱{{product.discount}}  </span> </p>
+                <p class="price">₱{{product.price}} <a>Original Price : </a>   <span class="discount" v-if="product.discount">₱{{product.discount}}  </span> </p>
             </div>
         </div>
 
@@ -188,7 +188,7 @@ export default {
     font-size: 18px;
     text-decoration: line-through;
 }
-.offer-container .right .price h3{
+.offer-container .right .price a{
     font-style: italic;
     color: rgb(88, 88, 88);
     font-size: 22px;
