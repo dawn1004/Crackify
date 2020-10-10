@@ -14,7 +14,7 @@
             <img :src="product.url" alt="">
             <div class="discription">
                 <p>{{product.description}}</p>
-                <p class="price">₱{{product.price}}  <h3>Original Price :</h3>  <span class="discount" v-if="product.discount">₱{{product.discount}}  </span> </p>
+                <p class="price">₱{{product.price}}  <h3 style="color:red;">Original Price :</h3>  <span class="discount" v-if="product.discount">₱{{product.discount}}  </span> </p>
             </div>
         </div>
 
